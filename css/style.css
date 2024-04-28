@@ -88,12 +88,18 @@ button{
 	display: flex;
 	color: #f7f7f7;
 	margin-top: 40px;
-	margin-bottom: 21px;
+	margin-bottom: 43px;
 	justify-content: space-between;
 }
 
 .row {
 	display: flex;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 .popular {
@@ -151,7 +157,7 @@ button{
 	text-align: center;
 	padding: 65px 33px;
 	margin-left: 15px;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	position: relative;
 	line-height: normal;
 	z-index: -1;
@@ -159,6 +165,7 @@ button{
 
 .latest {
 	background: #D9D9D9;
+	margin-top: 12px;
 	/* margin-bottom: 138px; */
 }
 
@@ -265,7 +272,7 @@ button{
 	height: 449.5px;
 	text-align: center;
 	margin-left: 15px;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	position: relative;
 	line-height: normal;
 	z-index: -1;
@@ -274,8 +281,11 @@ button{
 .explore1 {
 	background-image: url('../image/explore1.svg');
 	margin-right: 5px;
-	margin-bottom: 19px;
-	padding: 183px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin-bottom: 19px; */
+	/* padding: 183px 20px; */
 }
 
 .explore1, .explore4 p {
@@ -297,14 +307,15 @@ button{
 }
 
 .social {
-	padding-bottom: 90px;
+	padding-bottom: 86px;
+	gap: 20px;
 }
 
 .social-img {
 	width: 190px;
 	height: 281px;
-	margin-top: -7px;
-	margin-right: 17px;
+	/* margin-top: -7px;
+	margin-right: 17px; */
 }
 
 .last-section {

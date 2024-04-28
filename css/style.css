@@ -102,8 +102,7 @@ button{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	/* padding: 180px 59px; */
+	padding: 0 40px;
 	line-height: normal;
 	position: relative;
 	/* z-index: -1; */
@@ -116,7 +115,7 @@ button{
 	width: 100%;
 	top: 0;
 	left: 0;
-	position: static;
+	position: absolute;
 	z-index: -1;
 }
 

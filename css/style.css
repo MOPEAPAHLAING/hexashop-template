@@ -98,11 +98,12 @@ button{
 
 .popular {
 	background-image: url('../image/images.png');
-	width: 610px;
+	flex-basis: 610px;
+	flex-shrink: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 40px;
+	padding: 0 61px;
 	line-height: normal;
 	position: relative;
 	/* z-index: -1; */
